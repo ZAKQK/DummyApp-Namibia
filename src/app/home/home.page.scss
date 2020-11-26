@@ -1,27 +1,21 @@
-#container {
-  text-align: center;
+div.card {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
+  background: ghostwhite;
+  border-radius: 16px;
+  padding: 8px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(204, 204, 204, 1);
+  box-shadow: 0px 0px 20px 0px rgba(204, 204, 204, 1);
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  > img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }
+  > h1 {
+  }
+  > p {
+  }
 }
